@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+  }
+  
+  .star {
+    font-size: 200px; /* Adjust size as needed */
+    color: gold; /* Adjust color as needed */
+  }
+  
+  .bigger {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px; /* Adjust size as needed */
+  }
+  

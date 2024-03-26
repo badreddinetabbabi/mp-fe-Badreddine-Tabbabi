@@ -1,0 +1,43 @@
+{
+    "categories": [
+        { "id": 1, "name": "Mobilier" },
+        { "id": 2, "name": "Décoration" },
+        { "id": 3, "name": "Bagagerie" }
+    ],
+    "produits": [{
+            "id": 1,
+            "code": "x12",
+            "designation": "Panier plastique",
+            "prix": 20,
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "code": "y4",
+            "designation": "Table en bois",
+            "prix": 100,
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "code": "y10",
+            "designation": "Salon en cuir",
+            "prix": 3000,
+            "categoryId": 1
+        },
+        {
+            "id": 4,
+            "code": "x7",
+            "designation": "Armoire",
+            "prix": 41,
+            "categoryId": 1
+        },
+        {
+            "id": 5,
+            "code": "w8",
+            "designation": "Valise",
+            "prix": 120,
+            "categoryId": 3
+        }
+    ]
+}

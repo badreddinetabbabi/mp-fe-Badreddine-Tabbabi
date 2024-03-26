@@ -1,0 +1,27 @@
+
+
+<div class="container-fluid container-with-space">
+  <nav class="navbar">
+    <div class="d-flex justify-content-center align-items-center w-100">
+    <table>
+      <tr>
+        <td *ngFor="let action of actions">
+          <button 
+            class="btn btn-success"
+            [style.backgroundColor]="action === actionCourante ? '#3454E2' : '#6f42c1'"
+            [style.color]="action === actionCourante ? '#ffffff' : '#000000'"
+            (click)="setActionCourante(action)"
+            [routerLink]="action.route"
+            style="width: 200px; height: 50px; margin: 10px; padding: 10px 20px; font-size: 16px; font-weight: bold;box-shadow: 0 2px 4px rgba(252, 251, 251, 0.1);">
+            <i [class]="action.icon"></i> {{action.titre}}
+          </button>
+        </td>
+        
+      </tr>
+    </table>
+  </div>
+  </nav>
+</div>
+
+<router-outlet></router-outlet>
+
